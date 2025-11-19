@@ -21,7 +21,7 @@ public class ObradaViseIznimki {
         } catch (Exception e) {
             System.err.println("Pokrivam sve ostale iznimke!");
             }
-        System.out.println("Kraj progrma: " + broj);
+        System.out.println("Kraj programa: " + broj);
 
         }
     }
