@@ -8,7 +8,7 @@ public class KlasaError {
                 znakovniNiz.add("Znakovni dodatak");
             }
         } catch (OutOfMemoryError e) {
-            System.err.println("Greška" + e.getMessage());
+            System.err.println("Greška: " + e.getMessage());
         }
     }
 }
